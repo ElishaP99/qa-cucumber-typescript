@@ -1,83 +1,71 @@
-QA Cucumber TypeScript
+# QA Automation — Cucumber + TypeScript
 
-A Behaviour-Driven Development (BDD) automation framework built with TypeScript and Cucumber.js.
+A Behaviour-Driven Development (BDD) automation framework built with Cucumber.js and TypeScript.
 
-This project is part of my QA Automation portfolio and is being developed to demonstrate practical experience with automated testing, BDD, Git, GitHub, and TypeScript.
+## About
 
-// Project Status
+This project is part of my QA Automation portfolio and focuses on building a maintainable BDD automation framework.
 
-Currently in development
+The project demonstrates the use of Cucumber, Gherkin and TypeScript to create structured and readable automated tests.
 
-The initial Cucumber framework is set up and running successfully. The framework will be expanded with additional scenarios, improved test organisation, reporting, and CI/CD.
+## Technologies
 
-// Technologies
+- TypeScript
+- Cucumber.js
+- Gherkin
+- Node.js
+- npm
+- Git
+- GitHub
+- Visual Studio Code
 
-TypeScript
-Cucumber.js
-Gherkin
-Node.js
-npm
-Git
-GitHub
-Visual Studio Code
+## Project Structure
 
-// Project Structure
 qa-cucumber-typescript/
 ├── src/
 │   ├── features/
 │   │   └── login.feature
-│   │
 │   └── step-definitions/
 │       └── login.steps.ts
-│
 ├── .gitignore
 ├── cucumber.js
 ├── package.json
 ├── package-lock.json
 └── tsconfig.json
 
-// Current Test Coverage
-Login
-Successful login scenario
-Gherkin feature definition
-Cucumber step definitions
+## Current Test Coverage
 
-// Running the Tests
-Prerequisites
+### Login
 
-Node.js
-npm
-Install dependencies
+The current framework contains a basic successful login scenario demonstrating:
+
+- Gherkin feature definition
+- Cucumber scenario
+- TypeScript step definitions
+
+## Running the Tests
+
+Install the project dependencies:
+
 npm install
 
-//Run the Cucumber tests
+Run the Cucumber test suite:
+
 npx cucumber-js
 
-// Planned Improvements
+## Development Roadmap
 
- Add realistic login test scenarios
- Add negative login scenarios
- Introduce Page Object Model
- Add test hooks
- Add test data management
- Add test reporting
- Improve framework configuration
- Add GitHub Actions CI/CD
- Expand feature coverage
+The framework will be expanded to include:
 
-// What I'm Practising
+- Additional login scenarios
+- Negative test cases
+- Page Object Model
+- Test hooks
+- Test data management
+- Test reporting
+- GitHub Actions
+- Additional feature coverage
 
-This project is being used to develop and demonstrate practical skills in:
+## Portfolio
 
-Behaviour-Driven Development (BDD)
-Gherkin syntax
-Cucumber automation
-TypeScript
-Test framework design
-Git and GitHub
-Automation project structure
-CI/CD
-
-// About
-
-This repository is part of my QA Automation portfolio, documenting my progression in test automation and software quality engineering.
+This repository is part of my QA Automation portfolio and documents my development of automated testing skills using TypeScript and Cucumber.
