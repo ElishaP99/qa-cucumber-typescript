@@ -1,12 +1,12 @@
-# QA Automation — Cucumber + TypeScript
+# QA Cucumber TypeScript
 
-A Behaviour-Driven Development (BDD) automation framework built with Cucumber.js and TypeScript.
+A Behaviour-Driven Development (BDD) automation framework built using Cucumber.js and TypeScript.
 
-## About
+## Overview
 
-This project is part of my QA Automation portfolio and focuses on building a maintainable BDD automation framework.
+This project is part of my QA automation portfolio and demonstrates the development of a BDD test automation framework using Cucumber and TypeScript.
 
-The project demonstrates the use of Cucumber, Gherkin and TypeScript to create structured and readable automated tests.
+The framework is designed to provide readable, maintainable and reusable automated tests.
 
 ## Technologies
 
@@ -17,55 +17,68 @@ The project demonstrates the use of Cucumber, Gherkin and TypeScript to create s
 - npm
 - Git
 - GitHub
-- Visual Studio Code
 
 ## Project Structure
 
 qa-cucumber-typescript/
-├── src/
-│   ├── features/
-│   │   └── login.feature
-│   └── step-definitions/
-│       └── login.steps.ts
+├── features/
+│   └── login.feature
+├── step-definitions/
+│   └── login.steps.ts
 ├── .gitignore
 ├── cucumber.js
 ├── package.json
 ├── package-lock.json
+├── README.md
 └── tsconfig.json
 
-## Current Test Coverage
+## Test Coverage
 
 ### Login
 
-The current framework contains a basic successful login scenario demonstrating:
+Current scenarios cover the basic login flow using:
 
-- Gherkin feature definition
-- Cucumber scenario
+- Gherkin feature files
+- Cucumber scenarios
 - TypeScript step definitions
 
-## Running the Tests
+Additional positive and negative scenarios will be added as the framework develops.
 
-Install the project dependencies:
+## Getting Started
+
+### Prerequisites
+
+The following are required to run the project:
+
+- Node.js
+- npm
+
+### Installation
+
+Clone the repository and install the project dependencies:
 
 npm install
 
-Run the Cucumber test suite:
+### Running the Tests
+
+Run the Cucumber test suite using:
 
 npx cucumber-js
 
-## Development Roadmap
+## Development
 
-The framework will be expanded to include:
+The framework is currently being developed and will be expanded to demonstrate additional automation and framework design techniques.
 
-- Additional login scenarios
-- Negative test cases
+Planned areas include:
+
+- Additional test scenarios
+- Negative testing
 - Page Object Model
-- Test hooks
+- Hooks
 - Test data management
 - Test reporting
-- GitHub Actions
-- Additional feature coverage
+- Continuous Integration with GitHub Actions
 
-## Portfolio
+## About
 
-This repository is part of my QA Automation portfolio and documents my development of automated testing skills using TypeScript and Cucumber.
+This repository forms part of my QA automation portfolio and documents my development of automated testing skills using TypeScript and Cucumber.
